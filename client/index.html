@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <h1>A basic Weather app Microservice</h1>
+    <p>Enter your details to get weather Info </p>
+    <form action="/weather" method="post">
+        <label for="latitudeInput">Latitude: </label>
+        <input type="text" name="latitudeName" placeholder="Enter Latitude of your city" id="latitudeInput">
+        <label for="longitudeInput">Longitude: </label>
+        <input type="text" name="longitudeName" placeholder="Enter Longitude of your city" id="longitudeInput">
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -11,7 +11,7 @@ Microservices and monolithic applications represent two different architectural 
 - Monolithic: A monolithic application is composed as a single, tightly coupled unit where all components and functionalities are bundled together.
 - Microservices: A microservices architecture divides the application into small, independent services, each responsible for a specific functionality.
 
-### ### 2. Scalability:
+### 2. Scalability:
 
 - Monolithic: Scaling a monolithic application requires scaling the entire application, even if only certain components need more resources.
 - Microservices: Microservices allow for individual service scalability. You can scale specific services independently based on their demand, optimizing resource usage and enhancing performance.
@@ -43,7 +43,7 @@ Microservices and monolithic applications represent two different architectural 
 
 It's important to note that the choice between microservices and monolithic applications depends on various factors such as the project's complexity, scalability requirements, team size, and development speed. Each approach has its own advantages and challenges, and the decision should be made considering the specific needs and constraints of the project.
 
-### Communication between microservices
+## Communication between microservices
 
 In a microservices architecture, communication between microservices is a crucial aspect that needs to be carefully designed and implemented. There are several common approaches for enabling communication between microservices:
 
