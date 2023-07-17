@@ -9,7 +9,7 @@ weatherRouter.get("/", (req, res) => {
 weatherRouter.post("/", (req, res) => {
     const lat = req.body.latitudeName;
     const lon = req.body.longitudeName;
-    const API_KEY = "628ddb1b946bee40819b72c8d68a3f9c";
+    const API_KEY = "YOUR_API_KEY";
 
     const url = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid=" + API_KEY + ""
     console.log(url);

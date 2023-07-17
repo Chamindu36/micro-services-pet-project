@@ -1,4 +1,4 @@
-# micro-services-pet-project
+# weather-micro-services-pet-project
 
 Explore microservices, learning how to implement a microservice with Node.js and discussing how microservices are changing the practice of software development
 
@@ -66,3 +66,68 @@ In a microservices architecture, communication between microservices is a crucia
 - An API gateway acts as a single entry point for client requests and provides a centralized interface for communication with multiple microservices. It handles request routing, protocol translation, authentication, authorization, and rate limiting. API gateways can be implemented using tools like NGINX, Kong, or Netflix Zuul.
 
 When designing communication between microservices, it's essential to consider factors such as latency requirements, data consistency, security, and fault tolerance. Additionally, it's important to choose appropriate communication patterns based on the specific use cases and system requirements to ensure effective and reliable communication between microservices.
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Chamindu36/micro-services-pet-project.git
+   ```
+
+2. Install dependencies for each microservice:
+
+   ```bash
+   cd micro-services-pet-project/
+   npm install
+
+   # Repeat this for each microservice
+   ```
+
+3. Set up the necessary configuration for each microservice, such as database connections or external service APIs.
+
+4. Replace the API key with your subscription in the OpenWeatherMap APIs. This ensures that weather data is fetched correctly. Locate the relevant code file and update the API key.
+
+## Running the Project
+
+1. Start each microservice:
+
+   ```bash
+   cd micro-services-pet-project/service1
+   npm start
+
+
+   # Repeat this for each microservice
+   ```
+
+2. Access the microservices and their APIs via the provided endpoints:
+
+   - Service 1: `/about`
+
+     - Description: Displays information about the service.
+     - Endpoint: `http://localhost:3000/about`
+
+   - Service 2: `/weather`
+     - Description: Provides weather data based on the requested location.
+     - Endpoint: `http://localhost:4000/weather`
+
+3. Interact with the microservices' APIs using tools like cURL or Postman.
+
+4. Explore the microservices' user interfaces (UIs):
+
+   - /about UI:
+
+     - Access the UI by opening `http://localhost:3000/about` in your web browser.
+
+![Response of this service](./Screenshot%202023-07-18%20at%2012.19.42%20AM.png)
+
+- /weather UI: - Access the UI by opening `http://localhost:3000` in your web browser. - Interact with the UI to view and search for weather information.
+  ![UI and form submissions for weather UI app](./Screenshot%202023-07-18%20at%2012.19.48%20AM.png)
+
+## Contributing
+
+Feel free to contribute to this project by submitting pull requests or reporting issues. Your contributions are greatly appreciated!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
